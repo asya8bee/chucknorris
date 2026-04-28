@@ -1,4 +1,4 @@
-import { create, type ExtractState } from 'zustand'
+import { create } from 'zustand'
 import { axiosApi } from '../axiosApi';
 
 interface JokeStoreState {
